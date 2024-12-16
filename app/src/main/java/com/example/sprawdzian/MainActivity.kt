@@ -79,7 +79,7 @@ fun Screen() {
         HorizontalDivider()
         Column (
             modifier = Modifier
-                .padding(16.dp)
+                .padding(0.dp, 10.dp)
         ){
             Text(
                 "Recent Activities",
